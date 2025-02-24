@@ -25,3 +25,5 @@ go.work.sum
 .env
 .idea
 neon-holders
+./holders
+holder_accounts.txt
