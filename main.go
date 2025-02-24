@@ -132,7 +132,7 @@ func readOperatorsFromFile(filename string) ([]string, error) {
 	}
 
 	if err := scanner.Err(); err != nil {
-		return nil, fmt.Errorf("error read file %s: %v", filename, err)
+		return nil, fmt.Errorf("error read file  %s: %v", filename, err)
 	}
 
 	return operators, nil
